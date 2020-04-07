@@ -124,18 +124,25 @@ void var18() {
 int main()
 {
     setlocale(LC_ALL, "Russian");
-    int variant;
-    cout << "ВЫберите вариант (3 или 18): ";
-    cin >> variant;
-    if (variant == 3) {
-        var3();
-    }
+    // int variant;
+    // cout << "ВЫберите вариант (3 или 18): ";
+    // cin >> variant;
+    // if (variant == 3) {
+    //     var3();
+    // }
+    // else
+    //     if (variant == 18) {
+    //         var18();
+    //     }
+    //     else
+    //         return 0;
+    string a = "аг";
+    string b = "ббг";
+    bool ans;
+    ans = a > b;
+    if (ans)
+        cout << "true";
     else
-        if (variant == 18) {
-            var18();
-        }
-        else
-            return 0;
-
+        cout << "false";
 }
 
